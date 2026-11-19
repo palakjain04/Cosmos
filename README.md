@@ -1,6 +1,5 @@
 # COSMOS: Space Research Intelligence Platform
 
-Stages 1–10 done, and stage 11 is ready to run: the import tooling exists, but the real corpus hasn't been supplied yet.
 - design system, app shell and Explore page
 - Research Explorer table (`/papers`)
 - Topic, Country and Mission pages
