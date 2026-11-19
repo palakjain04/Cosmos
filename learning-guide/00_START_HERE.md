@@ -1,4 +1,4 @@
-# COSMOS — Build a Space Research Intelligence Platform
+# COSMOS - Build a Space Research Intelligence Platform
 
 **Start here.** This course teaches you to build your own version of COSMOS, step by step.
 
