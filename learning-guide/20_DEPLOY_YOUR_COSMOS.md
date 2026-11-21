@@ -262,16 +262,7 @@ Then set the **environment variables** for the build:
 2. On the **API host**, set `COSMOS_CORS_ORIGINS` to exactly that (with `https://`, no `/` at the end) and redeploy the API.
 3. Open your website. Press **F12 → Network** and check that requests go to your API address with status 200.
 
-### Step 9 (optional) — Claude on the server
-
-Only if you want the Claude answer writer from Lesson 17. On the **API host**:
-
-- add `anthropic` to `backend/requirements.txt` and push,
-- add the environment variables `LLM_PROVIDER` = `anthropic` and `ANTHROPIC_API_KEY` = your key, as a **secret**.
-
-Never put the key in the frontend, in a `VITE_` variable, or in GitHub. A public site can be used by anyone, and each answer costs money, so watch your usage dashboard and set a spending limit.
-
-### Step 10 (optional) — The same API in a container
+### Step 9 (optional) — The same API in a container
 
 Some hosts prefer a **Docker image**: a sealed box with Python, your code and your data inside, which runs the same everywhere.
 
